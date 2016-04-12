@@ -128,6 +128,8 @@ class LtiConsumer(object):
             u'lis_result_sourcedid': self.xblock.lis_result_sourcedid,
 
             u'context_id': self.xblock.context_id,
+            u'component_display_name': self.xblock.display_name,
+
         }
 
         if self.xblock.has_score:
